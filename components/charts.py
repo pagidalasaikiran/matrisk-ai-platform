@@ -16,12 +16,14 @@ def _safe_chart_df(df: pd.DataFrame) -> pd.DataFrame:
     if df is None or df.empty:
         return pd.DataFrame()
     df = df.reset_index(drop=True)
-    # Convert any Interval columns to strings
+    # Convert any Interval or Category columns to strings to prevent serialization errors
     for col in df.columns:
-        if hasattr(df[col], 'dtype') and str(df[col].dtype) == 'interval':
+        dtype_str = str(df[col].dtype).lower()
+        if 'interval' in dtype_str or 'category' in dtype_str:
             df[col] = df[col].astype(str)
-        elif hasattr(df[col], 'dtype') and str(df[col].dtype) == 'category':
-            df[col] = df[col].astype(str)
+        elif pd.api.types.is_object_dtype(df[col]):
+            # Ensure everything in object columns is stringable
+            df[col] = df[col].fillna("N/A").astype(str)
     return df
 
 
