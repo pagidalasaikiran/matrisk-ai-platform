@@ -7,8 +7,13 @@ import streamlit as st
 import sys
 import os
 
-# Ensure project root is on sys.path
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from pathlib import Path
+
+# Ensure project root is on sys.path for robust module discovery
+BASE_DIR = Path(__file__).resolve().parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+
 
 from utils.data_loader import init_database
 from utils.state_manager import init_session_state

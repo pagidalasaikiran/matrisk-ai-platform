@@ -2,7 +2,7 @@
 MatRisk AI - Application Constants
 All column names, dataset paths, and configuration constants.
 """
-import os
+from pathlib import Path
 
 # ─── Application ───────────────────────────────────────────────
 APP_NAME = "MatRisk AI"
@@ -10,17 +10,20 @@ APP_VERSION = "2.0.0"
 APP_DESCRIPTION = "Predictive Material Intelligence for Financial Risk Modelling"
 
 # ─── Paths ─────────────────────────────────────────────────────
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATASET_DIR = os.path.join(BASE_DIR, "datasets", "processed")
+# Resolve the project root relative to this file (utils/constants.py)
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATASET_DIR = BASE_DIR / "datasets" / "processed"
+
 
 # ─── Dataset File Paths ───────────────────────────────────────
-MATERIALS_CSV = os.path.join(DATASET_DIR, "materials.csv")
-COMMODITY_PRICES_CSV = os.path.join(DATASET_DIR, "commodity_prices.csv")
-COMMODITIES_CSV = os.path.join(DATASET_DIR, "commodities.csv")
-INFRASTRUCTURE_ASSETS_CSV = os.path.join(DATASET_DIR, "infrastructure_assets.csv")
-INFRASTRUCTURE_CSV = os.path.join(DATASET_DIR, "infrastructure.csv")
-HISTORICAL_FAILURES_CSV = os.path.join(DATASET_DIR, "historical_failures.csv")
-ESG_CSV = os.path.join(DATASET_DIR, "esg.csv")
+MATERIALS_CSV = DATASET_DIR / "materials.csv"
+COMMODITY_PRICES_CSV = DATASET_DIR / "commodity_prices.csv"
+COMMODITIES_CSV = DATASET_DIR / "commodities.csv"
+INFRASTRUCTURE_ASSETS_CSV = DATASET_DIR / "infrastructure_assets.csv"
+INFRASTRUCTURE_CSV = DATASET_DIR / "infrastructure.csv"
+HISTORICAL_FAILURES_CSV = DATASET_DIR / "historical_failures.csv"
+ESG_CSV = DATASET_DIR / "esg.csv"
+
 
 # ─── Materials Columns ────────────────────────────────────────
 MAT_COLS = {

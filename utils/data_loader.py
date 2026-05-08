@@ -14,19 +14,26 @@ from utils.constants import (
 )
 
 
-def _safe_read_csv(path: str, **kwargs) -> pd.DataFrame:
+from pathlib import Path
+
+def _safe_read_csv(path: Path, **kwargs) -> pd.DataFrame:
     """Read CSV with defensive error handling. Returns empty DataFrame on failure."""
     try:
-        if not os.path.exists(path):
-            st.warning(f"Dataset not found: {os.path.basename(path)}")
+        # Convert path to Path object if it's a string
+        p = Path(path)
+        if not p.exists():
+            st.warning(f"Dataset not found: {p.name}")
             return pd.DataFrame()
-        df = pd.read_csv(path, **kwargs)
+        df = pd.read_csv(p, **kwargs)
         if df.empty:
-            st.warning(f"Dataset is empty: {os.path.basename(path)}")
+            st.warning(f"Dataset is empty: {p.name}")
         return df
     except Exception as e:
-        st.error(f"Error loading {os.path.basename(path)}: {e}")
+        # Safely get the name of the file
+        fname = Path(path).name if path else "unknown"
+        st.error(f"Error loading {fname}: {e}")
         return pd.DataFrame()
+
 
 
 def _coerce_numeric(df: pd.DataFrame, cols: list) -> pd.DataFrame:
@@ -195,14 +202,15 @@ def get_dataset_summary() -> dict:
             summary[name] = {
                 "rows": len(df),
                 "columns": len(df.columns),
-                "file_exists": os.path.exists(path),
+                "file_exists": Path(path).exists(),
                 "status": "✅" if len(df) > 0 else "⚠️",
             }
         except Exception:
             summary[name] = {
                 "rows": 0,
                 "columns": 0,
-                "file_exists": os.path.exists(path),
+                "file_exists": Path(path).exists(),
                 "status": "❌",
             }
+
     return summary
