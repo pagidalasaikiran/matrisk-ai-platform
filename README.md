@@ -7,7 +7,7 @@
 ### 🚀 Try the Platform
 https://matrisk-ai-platform.streamlit.app/
 
-[![Streamlit App](https://static.streamlit.io/badge_streamlit.svg)](https://matrisk-ai-platform.streamlit.app/)
+[![Live App](https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?logo=streamlit&logoColor=white)](https://matrisk-ai-platform.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://python.org)
 [![Machine Learning](https://img.shields.io/badge/ML-ScikitLearn-orange.svg)](https://scikit-learn.org/)
 [![Data Analytics](https://img.shields.io/badge/Data-Analytics-cyan.svg)](https://pandas.pydata.org/)
@@ -34,44 +34,6 @@ https://matrisk-ai-platform.streamlit.app/
 into one unified institutional-level decision intelligence platform.
 
 The system combines advanced visual analytics, machine learning pipelines, portfolio risk monitoring, forecasting engines, and simulation-based intelligence into a single modern analytics workspace.
-
----
-
-# ✨ Platform Preview
-
-## 🏠 Home Interface
-
-<img width="100%" src="https://github.com/pagidalasaikiran/matrisk-ai-platform/raw/main/assets/home.png">
-
----
-
-## 📊 Executive Dashboard
-
-<img width="100%" src="https://github.com/pagidalasaikiran/matrisk-ai-platform/raw/main/assets/dashboard.png">
-
----
-
-## 🧪 Material Intelligence Engine
-
-<img width="100%" src="https://github.com/pagidalasaikiran/matrisk-ai-platform/raw/main/assets/materials.png">
-
----
-
-## 📈 Commodity Market Analytics
-
-<img width="100%" src="https://github.com/pagidalasaikiran/matrisk-ai-platform/raw/main/assets/commodities.png">
-
----
-
-## 🏗️ Infrastructure Risk Analytics
-
-<img width="100%" src="https://github.com/pagidalasaikiran/matrisk-ai-platform/raw/main/assets/infrastructure.png">
-
----
-
-## 🎮 Monte Carlo Simulation Lab
-
-<img width="100%" src="https://github.com/pagidalasaikiran/matrisk-ai-platform/raw/main/assets/lab.png">
 
 ---
 
