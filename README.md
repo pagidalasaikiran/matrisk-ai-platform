@@ -2,15 +2,16 @@
 
 <div align="center">
 
-## 🌐 Live Application
-🚀 **Deploy Link:**  
+# 🌐 Live Application
+
+### 🚀 Try the Platform
 https://matrisk-ai-platform.streamlit.app/
 
 [![Streamlit App](https://static.streamlit.io/badge_streamlit.svg)](https://matrisk-ai-platform.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://python.org)
 [![Machine Learning](https://img.shields.io/badge/ML-ScikitLearn-orange.svg)](https://scikit-learn.org/)
 [![Data Analytics](https://img.shields.io/badge/Data-Analytics-cyan.svg)](https://pandas.pydata.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### Predictive Material Intelligence Platform for Financial Risk Modelling
 
@@ -22,17 +23,17 @@ https://matrisk-ai-platform.streamlit.app/
 
 # 📌 Overview
 
-**MatRisk AI** is an enterprise-style analytics ecosystem engineered to connect:
+**MatRisk AI** is an enterprise-grade analytics ecosystem engineered to bridge:
 
-- 🧪 Material science
-- 🏗️ Infrastructure analytics
-- 📈 Commodity market intelligence
-- 🌱 ESG sustainability metrics
-- 🤖 Predictive AI systems
+- 🧪 Material Science
+- 🏗️ Infrastructure Intelligence
+- 📈 Commodity Market Analytics
+- 🌱 ESG Sustainability Systems
+- 🤖 Predictive AI & Risk Modelling
 
-into one unified institutional-grade decision platform.
+into one unified institutional-level decision intelligence platform.
 
-The system provides advanced visual analytics, machine learning-powered forecasting, portfolio risk evaluation, and simulation capabilities for industrial and financial applications.
+The system combines advanced visual analytics, machine learning pipelines, portfolio risk monitoring, forecasting engines, and simulation-based intelligence into a single modern analytics workspace.
 
 ---
 
@@ -40,37 +41,37 @@ The system provides advanced visual analytics, machine learning-powered forecast
 
 ## 🏠 Home Interface
 
-<img width="100%" alt="MatRisk Home" src="https://raw.githubusercontent.com/pagidalasaikiran/matrisk-ai-platform/main/assets/home.png">
+<img width="100%" src="https://github.com/pagidalasaikiran/matrisk-ai-platform/raw/main/assets/home.png">
 
 ---
 
 ## 📊 Executive Dashboard
 
-<img width="100%" alt="Dashboard" src="https://raw.githubusercontent.com/pagidalasaikiran/matrisk-ai-platform/main/assets/dashboard.png">
+<img width="100%" src="https://github.com/pagidalasaikiran/matrisk-ai-platform/raw/main/assets/dashboard.png">
 
 ---
 
 ## 🧪 Material Intelligence Engine
 
-<img width="100%" alt="Materials" src="https://raw.githubusercontent.com/pagidalasaikiran/matrisk-ai-platform/main/assets/materials.png">
+<img width="100%" src="https://github.com/pagidalasaikiran/matrisk-ai-platform/raw/main/assets/materials.png">
 
 ---
 
 ## 📈 Commodity Market Analytics
 
-<img width="100%" alt="Commodity Analytics" src="https://raw.githubusercontent.com/pagidalasaikiran/matrisk-ai-platform/main/assets/commodities.png">
+<img width="100%" src="https://github.com/pagidalasaikiran/matrisk-ai-platform/raw/main/assets/commodities.png">
 
 ---
 
 ## 🏗️ Infrastructure Risk Analytics
 
-<img width="100%" alt="Infrastructure" src="https://raw.githubusercontent.com/pagidalasaikiran/matrisk-ai-platform/main/assets/infrastructure.png">
+<img width="100%" src="https://github.com/pagidalasaikiran/matrisk-ai-platform/raw/main/assets/infrastructure.png">
 
 ---
 
 ## 🎮 Monte Carlo Simulation Lab
 
-<img width="100%" alt="Simulation Lab" src="https://raw.githubusercontent.com/pagidalasaikiran/matrisk-ai-platform/main/assets/lab.png">
+<img width="100%" src="https://github.com/pagidalasaikiran/matrisk-ai-platform/raw/main/assets/lab.png">
 
 ---
 
@@ -78,117 +79,118 @@ The system provides advanced visual analytics, machine learning-powered forecast
 
 ---
 
-## 🧪 Material Intelligence
+# 🧪 Material Intelligence
 
-Advanced exploration and predictive modeling of material properties.
+Advanced material analytics and predictive modelling environment.
 
-### Features
+## Features
 - Property distribution analysis
-- Stability prediction engine
-- Material comparison system
-- Crystal structure analytics
-- Correlation analysis
+- Crystal structure exploration
+- Material stability prediction
+- Correlation analytics
 - Mechanical property forecasting
-- AI-assisted material insights
+- ML-assisted material insights
+- Comparative material intelligence
 
-### ML Capabilities
+## Machine Learning
 - Gradient Boosting classifiers
-- Random Forest regressors
-- Predictive material scoring
-- Stability classification
+- Random Forest regression models
+- Stability prediction engine
+- Property estimation pipelines
 
 ---
 
-## 📈 Commodity Market Analytics
+# 📈 Commodity Market Analytics
 
-Institutional-style commodity intelligence system.
+Institutional commodity intelligence system for market monitoring and forecasting.
 
-### Features
+## Features
 - Historical commodity tracking
-- Technical indicator analysis
+- Price trend analytics
 - RSI monitoring
-- Price volatility analysis
-- Volume trend evaluation
-- Predictive forecasting
+- Volatility analysis
+- Trading volume analytics
+- Predictive forecasting engine
 
-### Analytics
-- Bollinger Bands
-- Momentum analysis
+## Analytics Stack
+- Technical indicators
 - Rolling averages
+- Momentum analytics
 - Monte Carlo forecasting
+- Trend decomposition
 
 ---
 
-## 🏗️ Infrastructure Risk Analytics
+# 🏗️ Infrastructure Risk Analytics
 
-Enterprise infrastructure monitoring and risk assessment.
+Enterprise infrastructure portfolio monitoring and asset risk evaluation.
 
-### Features
-- Asset portfolio monitoring
-- Risk classification engine
-- Failure history analytics
-- Asset condition evaluation
+## Features
+- Asset monitoring system
 - Financial exposure estimation
-- Material-based degradation assessment
+- Infrastructure risk scoring
+- Failure history analysis
+- Asset condition evaluation
+- Material degradation assessment
 
-### Risk Systems
-- Asset risk scoring
-- Failure prediction
-- Portfolio categorization
+## Risk Systems
+- Portfolio risk engine
+- Failure prediction models
 - Corrosion analytics
+- Asset categorization
 
 ---
 
-## 🌱 ESG Analytics
+# 🌱 ESG Analytics
 
-Environmental, sustainability, and governance intelligence.
+Environmental, Sustainability, and Governance intelligence framework.
 
-### Features
-- ESG scoring matrix
-- Sustainability tracking
-- Carbon intensity analytics
-- Recycled content evaluation
-- Environmental risk assessment
-- ESG comparison engine
+## Features
+- ESG score analytics
+- Carbon intensity tracking
+- Sustainability monitoring
+- Recycled content analysis
+- Environmental impact assessment
+- ESG comparison matrix
 
 ---
 
-## 🎮 MatRisk Lab
+# 🎮 MatRisk Lab
 
-Simulation and advanced scenario testing engine.
+Simulation and advanced probabilistic modelling environment.
 
-### Simulation Systems
-- Monte Carlo simulations
-- Corrosion degradation simulation
-- Stress testing engine
-- Scenario analysis
+## Simulation Systems
+- Monte Carlo simulation engine
+- Corrosion degradation simulator
+- Stress testing framework
+- Risk scenario analysis
 - Probabilistic forecasting
 
-### Forecast Outputs
+## Outputs
+- Percentile projections
 - Confidence intervals
-- Percentile predictions
 - Volatility analysis
-- Risk-adjusted projections
+- Risk-adjusted forecasting
 
 ---
 
-## 🤖 AI-Powered Insights
+# 🤖 AI-Powered Insights
 
-Cross-domain intelligent insight generation.
+Cross-domain intelligence engine combining material, infrastructure, ESG, and risk data.
 
-### Features
+## Features
 - Automated insight generation
-- Asset alerts
-- Pattern detection
-- Sustainability recommendations
 - Risk anomaly detection
-- Data-driven intelligence summaries
+- Asset alert systems
+- Pattern intelligence
+- Sustainability recommendations
+- Portfolio insight summaries
 
 ---
 
 # 📊 Technical Architecture
 
-| Layer | Technologies |
+| Layer | Technology |
 |---|---|
 | Frontend | Streamlit |
 | Backend | Python |
@@ -197,28 +199,26 @@ Cross-domain intelligent insight generation.
 | Visualization | Plotly, Altair |
 | Forecasting | Monte Carlo Simulation |
 | State Management | Streamlit Session State |
-| Dataset Engine | CSV-based analytical architecture |
+| Dataset Engine | CSV Analytics Architecture |
 
 ---
 
 # 🧠 Machine Learning Stack
 
-## Models Used
-
-### Classification
+## Classification Models
 - Gradient Boosting Classifier
-- Risk Category Prediction
-- Stability Prediction
+- Risk Prediction Models
+- Stability Classification Engine
 
-### Regression
+## Regression Models
 - Random Forest Regression
-- Property Estimation
-- Forecast Modeling
+- Property Estimation Models
+- Forecasting Systems
 
-### Simulation
-- Monte Carlo Engine
-- Probabilistic Risk Forecasting
-- Stress Testing Models
+## Simulation Models
+- Monte Carlo Simulation
+- Probabilistic Forecasting
+- Stress Testing Analytics
 
 ---
 
@@ -269,7 +269,7 @@ matrisk-ai-platform/
 
 # ⚙️ Installation
 
-## Clone Repository
+# Clone Repository
 
 ```bash
 git clone https://github.com/pagidalasaikiran/matrisk-ai-platform.git
@@ -278,15 +278,15 @@ cd matrisk-ai-platform
 
 ---
 
-## Create Virtual Environment
+# Create Virtual Environment
 
-### Windows
+## Windows
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-### Linux / macOS
+## Linux / macOS
 ```bash
 python -m venv venv
 source venv/bin/activate
@@ -294,7 +294,7 @@ source venv/bin/activate
 
 ---
 
-## Install Dependencies
+# Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -302,7 +302,7 @@ pip install -r requirements.txt
 
 ---
 
-## Run Application
+# Run Application
 
 ```bash
 streamlit run app.py
@@ -310,31 +310,31 @@ streamlit run app.py
 
 ---
 
-# 🛡️ Security & Production Engineering
+# 🛡️ Production & Security
 
-### Security Features
+## Security Features
 - Sanitized filesystem exposure
 - Defensive dataset validation
-- Session-safe architecture
-- Controlled dataset access
+- Safe session-state architecture
+- Controlled dataset handling
 - Production deployment compatibility
 
-### Engineering Features
+## Engineering Features
 - Modular architecture
-- Reusable chart systems
-- Defensive loading mechanisms
-- Scalable analytics pipeline
-- Enterprise-style UI architecture
+- Reusable visualization systems
+- Defensive data loading
+- Scalable analytics design
+- Enterprise-style dashboard UI
 
 ---
 
-# 📈 Real Dataset Coverage
+# 📈 Dataset Coverage
 
 | Dataset | Records |
 |---|---|
 | Materials | 5,500 |
-| Infrastructure Assets | 5,000 |
 | Commodity Prices | 22,952 |
+| Infrastructure Assets | 5,000 |
 | Historical Failures | 2,000 |
 | ESG Records | 15 |
 
@@ -343,34 +343,35 @@ streamlit run app.py
 # 🎯 Use Cases
 
 - Infrastructure financial risk analysis
-- Industrial asset management
+- Industrial asset monitoring
 - Commodity procurement forecasting
-- ESG compliance monitoring
-- Material science exploration
-- Risk-adjusted portfolio analytics
+- ESG compliance intelligence
+- Material science analytics
 - Predictive engineering systems
+- Institutional portfolio monitoring
 
 ---
 
 # 🌐 Deployment
 
-### Live Deployment
+## Live App
 https://matrisk-ai-platform.streamlit.app/
 
-### GitHub Repository
+## GitHub Repository
 https://github.com/pagidalasaikiran/matrisk-ai-platform
 
 ---
 
 # 👨‍💻 Developer
 
-### Pagidala Sai Kiran
+# Pagidala Sai Kiran
 
 - AI & Data Analytics Developer
 - Machine Learning Enthusiast
-- Infrastructure & Risk Analytics Explorer
+- Risk Analytics Explorer
+- Streamlit Application Developer
 
-### GitHub
+## GitHub
 https://github.com/pagidalasaikiran
 
 ---
@@ -383,15 +384,16 @@ This project is licensed under the MIT License.
 
 # ⚠️ Disclaimer
 
-MatRisk AI is developed for educational, analytical, and demonstration purposes.  
-Predictions and simulations should not replace certified engineering or institutional financial decision-making systems.
+MatRisk AI is developed for educational, analytical, and demonstration purposes.
+
+Predictions, forecasts, and simulations generated by the platform should not replace certified engineering assessments, financial advisory systems, or institutional decision-making frameworks.
 
 ---
 
 <div align="center">
 
-## ⭐ If you like this project, consider starring the repository!
+# ⭐ If you like this project, consider starring the repository!
 
-**MatRisk AI © 2026**
+## MatRisk AI © 2026
 
 </div>
